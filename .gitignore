@@ -1,7 +1,15 @@
+# Ignore virtual environment
 venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
 .DS_Store
+
+# Ignore large unnecessary files
+*.pyd
+*.dll
+*.exe
+*.zip
+*.tar.gz
+*.whl
+*.h5
+*.ckpt
